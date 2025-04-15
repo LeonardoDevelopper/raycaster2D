@@ -1,18 +1,18 @@
 <p align="center"> <img src="https://img.shields.io/badge/raycaster2D-Linux%20Only-blue?style=for-the-badge" alt="raycaster2D Badge"> <img src="https://img.shields.io/github/stars/LeonardoDevelopper/Minishell?style=for-the-badge" alt="GitHub Stars Badge"> <img src="https://img.shields.io/badge/Made%20With-C%20Language-green?style=for-the-badge" alt="C Language Badge"> </p> <h1 align="center">RayCaster2D</h1> <p align="center"> A simplified implementation of raycasting in 2D view & <b>Leonardo Jorge</b> 🛠️</p>
 🌟 <h1>Description</h1>
-cub3D is a 3D game project inspired by the classic Wolfenstein 3D, developed as part of the 42 curriculum. The objective is to create a first-person perspective (FPS) engine using raycasting, a technique that simulates 3D rendering in a 2D environment.
+Raycaster2D is a project that implements the raycasting technique in a purely 2D environment. The system casts multiple rays from a central point (usually the player) to detect obstacles on a grid-based map, allowing visualization of free and blocked directions.
 
-This project serves as an introduction to graphics programming and game development, leveraging the MiniLibX library for rendering. It involves parsing a map, implementing raycasting for wall rendering, handling textures, and simulating basic player movement.
-
-The ultimate goal is to build a functional and visually appealing FPS-like experience, laying the groundwork for more advanced graphics programming projects.
+The goal of this project is to explore the fundamentals of 2D raycasting for collision detection, field of view (FOV), and map navigation — serving as a base for top-down games, enemy vision systems, or interactive visualizations.
 
 🧰 <h1>Key Features</h1>
 
 <p>✅ Raycasting Engine – Implements a raycasting algorithm to 2D view.</p>
+<p>✅Emits multiple rays at varying angles from a single origin point.</p>
 <p>✅ Wall Rendering with Textures – Loads and applies textures to walls.</p>
 <p>✅ Player Movement & Rotation – Enables smooth movement.</p>
 <p>✅ MiniLibX Integration – Uses the MiniLibX library for window management, drawing, and event handling.</p>
 <p>✅ Basic Collision Detection – Prevents the player from walking through walls.</p>
+
 
 <h1>Potential Enhancements</h1>
 <p>🚀 Sprite Rendering – Add objects (e.g., enemies, doors) for interaction.</p>
