@@ -133,9 +133,21 @@ make
 ./rc
 
 ```
-<p style="align-items: center">
+<p>
     <img src="https://github.com/LeonardoDevelopper/raycaster2D/blob/main/preview1.png" width="700px;" height="500px;" alt="Leonardo Jorge"/>
 </p>
+
+🐧 <h1>Mods</h1>
+```bash
+# Run the bin:
+make re TEXTURE=false CONTROLES=mouse FOV=2*PI MAP=assets/map_big.ber NUM_RAYS=1000 TILE_SIZE=50
+
+```
+<p>
+    <img src="https://github.com/LeonardoDevelopper/raycaster2D/blob/main/preview2.png" width="700px;" height="500px;" alt="Leonardo Jorge"/>
+</p>
+
+💡 <h1>Help</h1>
 
 🚧 <h1>Important Notes</h1>
 This project is Linux-only.
