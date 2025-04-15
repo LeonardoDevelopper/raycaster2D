@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://img.shields.io/badge/Cub3D-Linux%20Only-blue?style=for-the-badge" alt="Cub3D Badge"> <img src="https://img.shields.io/github/stars/LeonardoDevelopper/Minishell?style=for-the-badge" alt="GitHub Stars Badge"> <img src="https://img.shields.io/badge/Made%20With-C%20Language-green?style=for-the-badge" alt="C Language Badge"> </p> <h1 align="center">🧊 Cub3D</h1> <p align="center">A simplified FPS engine project by <b>Constância Tati</b> & <b>Leonardo Jorge</b> 🛠️</p>
+<p align="center"> <img src="https://img.shields.io/badge/Cub3D-Linux%20Only-blue?style=for-the-badge" alt="Cub3D Badge"> <img src="https://img.shields.io/github/stars/LeonardoDevelopper/Minishell?style=for-the-badge" alt="GitHub Stars Badge"> <img src="https://img.shields.io/badge/Made%20With-C%20Language-green?style=for-the-badge" alt="C Language Badge"> </p> <h1 align="center">RayCaster2D</h1> <p align="center"> A simplified implementation of raycasting in 2D view & <b>Leonardo Jorge</b> 🛠️</p>
 🌟 <h1>Description</h1>
 cub3D is a 3D game project inspired by the classic Wolfenstein 3D, developed as part of the 42 curriculum. The objective is to create a first-person perspective (FPS) engine using raycasting, a technique that simulates 3D rendering in a 2D environment.
 
@@ -8,17 +8,15 @@ The ultimate goal is to build a functional and visually appealing FPS-like exper
 
 🧰 <h1>Key Features</h1>
 
-<p>✅ Raycasting Engine – Implements a raycasting algorithm to simulate a 3D environment in a 2D plane.</p>
-<p>✅ Wall Rendering with Textures – Loads and applies textures to walls for a realistic visual experience.</p>
-<p>✅ Player Movement & Rotation – Enables smooth movement and camera rotation for an immersive FPS feel.</p>
-<p>✅ Map Parsing – Reads and validates a .cub map file, defining the level’s layout, textures, and spawn point.</p>
+<p>✅ Raycasting Engine – Implements a raycasting algorithm to 2D view.</p>
+<p>✅ Wall Rendering with Textures – Loads and applies textures to walls.</p>
+<p>✅ Player Movement & Rotation – Enables smooth movement.</p>
 <p>✅ MiniLibX Integration – Uses the MiniLibX library for window management, drawing, and event handling.</p>
 <p>✅ Basic Collision Detection – Prevents the player from walking through walls.</p>
 
 <h1>Potential Enhancements</h1>
 <p>🚀 Sprite Rendering – Add objects (e.g., enemies, doors) for interaction.</p>
 <p>🚀 Lighting Effects – Implement shading for more depth and realism.</p>
-<p>🚀 Sound Effects – Improve immersion with ambient and action sounds.</p>
 
 The project provides a solid foundation in graphics programming, preparing for more complex game engines and rendering techniques in future projects.
 
@@ -74,26 +72,38 @@ The project provides a solid foundation in graphics programming, preparing for m
 🚀 <h1>How to Compile</h1>
 
 ```bash
-# Clone the repository:
-git clone https://github.com/LeonardoDevelopper/Cub3D
-
-```
-
-```bash
-# turn in directory:
-cd Cub3D
+# get libft:
+git clone https://github.com/LeonardoDevelopper/libft
 
 ```
 
 ```bash
 # get minilibX:
-git clone https://github.com/42Paris/minilibx-linux
+git clone https://github.com/42Paris/minilibx-linux minilibx
 
 ```
 
 ```bash
-# move minilibX to libs:
-mv ./minilibx-linux ./libs/
+# Clone the repository:
+git clone https://github.com/LeonardoDevelopper/raycaster2D
+
+```
+
+```bash
+# move libft to libs directory:
+mv libft/ raycaster2D/assets/
+
+```
+
+```bash
+# move minilibx to libs directory:
+mv minilibx/ raycaster2D/assets/
+
+```
+
+```bash
+# turn in directory:
+cd raycaster2D
 
 ```
 
@@ -120,15 +130,18 @@ make
 🐧 <h1>Usage Example</h1>
 ```bash
 # Run the bin:
-./cub3d assets/maps/default_map.cub
+./rc
 
 ```
+<p style="align-items: center">
+    <img src="https://github.com/LeonardoDevelopper/raycaster2D/blob/main/preview1.png" width="500px;" height="500px;" alt="Leonardo Jorge"/>
+</p>
 
 🚧 <h1>Important Notes</h1>
 This project is Linux-only.
-The binary produced (cub3d) is specific to Linux environments.<br />
+The binary produced (rc) is specific to Linux environments.<br />
 👥 <h1>Authors</h1>
-<table> <tr> <td align="center"><a href="https://github.com/constancia12"><img src="https://avatars.githubusercontent.com/u/144258984?v=4" width="100px;" alt="Constância Tati"/><br /><sub><b>Constância Tati</b></sub></a></td> <td align="center"><a href="https://github.com/LeonardoDevelopper"><img src="https://avatars.githubusercontent.com/u/113784384?v=4" width="100px;" alt="Leonardo Jorge"/><br /><sub><b>Leonardo Jorge</b></sub></a></td> </tr> </table>
+<table> <tr><td align="center"><a href="https://github.com/LeonardoDevelopper"><img src="https://avatars.githubusercontent.com/u/113784384?v=4" width="100px;" alt="Leonardo Jorge"/><br /><sub><b>Leonardo Jorge</b></sub></a></td> </tr> </table>
 Built with ❤️ for educational purposes.
 
 📜 License
