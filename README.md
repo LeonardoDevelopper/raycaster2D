@@ -134,7 +134,7 @@ make
 
 ```
 <p style="align-items: center">
-    <img src="https://github.com/LeonardoDevelopper/raycaster2D/blob/main/preview1.png" width="500px;" height="500px;" alt="Leonardo Jorge"/>
+    <img src="https://github.com/LeonardoDevelopper/raycaster2D/blob/main/preview1.png" width="700px;" height="500px;" alt="Leonardo Jorge"/>
 </p>
 
 🚧 <h1>Important Notes</h1>
