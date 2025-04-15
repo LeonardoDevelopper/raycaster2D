@@ -149,25 +149,25 @@ make re TEXTURE=false CONTROLES=mouse FOV=2*PI MAP=assets/map_big.ber NUM_RAYS=1
 </p>
 💡 <h1>Help</h1>
 <h3>
-    You can change the controls, map, texture
+    You can change the controls, map, texture, number_of_rays, tile_size, and textures
 </h3>
 <h3>
-    You can remove texture passing the macro TEXTURE=false
+    Remove texture passing the macro TEXTURE=false
 </h3>
 <h3>
-    You can set controls to move the light passing CONTROLS=mouse or CONTROLS=keyboard
+    Set controls to move the light with mouse passing CONTROLS=mouse
 </h3>
 <h3>
-    You can set player FOV passing FOV=PI/3
+    Set player FOV passing FOV=PI/3
 </h3>
 <h3>
-    You can change map creating a new map, and pass the path to file with MAP=path_to_map.ber
+    Change map creating a new map or pass the path to file with MAP=path_to_map.ber
 </h3>
 <h3>
-    You can change the number of rays of raycasting passing NUM_RAYS=number_of_rays for example
+    Change number of rays of raycasting passing NUM_RAYS=number_of_rays for example
 </h3>
 <h3>
-    You can set the tile size with TILE_SIZE=( > 10 and < 50) for example
+    Set tile size with TILE_SIZE=( > 10 and < 50) for example
 </h3>
 
 🚧 <h1>Important Notes</h1>
