@@ -139,9 +139,10 @@ make
 
 🐧 <h1>Mods</h1>
 ```bash
-# Run the bin:
+# build with:
 make re TEXTURE=false CONTROLES=mouse FOV=2*PI MAP=assets/map_big.ber NUM_RAYS=1000 TILE_SIZE=50
-
+# and run the bin
+./rc
 ```
 <p>
     <img src="https://github.com/LeonardoDevelopper/raycaster2D/blob/main/preview2.png" width="700px;" height="500px;" alt="Leonardo Jorge"/>
