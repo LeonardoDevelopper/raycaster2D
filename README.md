@@ -1,6 +1,6 @@
 <p align="center"> <img src="https://img.shields.io/badge/raycaster2D-Linux%20Only-blue?style=for-the-badge" alt="raycaster2D Badge"> <img src="https://img.shields.io/github/stars/LeonardoDevelopper/Minishell?style=for-the-badge" alt="GitHub Stars Badge"> <img src="https://img.shields.io/badge/Made%20With-C%20Language-green?style=for-the-badge" alt="C Language Badge"> </p> <h1 align="center">RayCaster2D</h1> <p align="center"> A simplified implementation of raycasting in 2D view & <b>Leonardo Jorge</b> 🛠️</p>
 🌟 <h1>Description</h1>
-Raycaster2D is a project that implements the raycasting technique in a purely 2D environment. The system casts multiple rays from a central point (usually the player) to detect obstacles on a grid-based map, allowing visualization of free and blocked directions.
+Raycaster2D is a project that implements the raycasting technique in a purely 2D environment. </br> The system casts multiple rays from a central point (usually the player) to detect obstacles on a grid-based map, allowing visualization of free and blocked directions.</br>
 
 The goal of this project is to explore the fundamentals of 2D raycasting for collision detection, field of view (FOV), and map navigation — serving as a base for top-down games, enemy vision systems, or interactive visualizations.
 
