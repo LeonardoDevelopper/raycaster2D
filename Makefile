@@ -17,7 +17,7 @@ CFLAGS = -Wall -Wextra -Werror -g
 INCLUDES = -I./libs/minilibx -I./libs/libft -I./includes
 SRC = src/main.c src/raycasting.c src/win.c src/read.c src/map.c src/utils.c src/render.c src/player.c src/move.c
 
-TEXTURE=true
+TEXTURE=true 
 FOV=PI/3
 CONTROLES=keyboard
 MAP=assets/map_small.ber
