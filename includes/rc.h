@@ -6,7 +6,7 @@
 /*   By: lleodev <lleodev@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/12 11:48:10 by lleodev           #+#    #+#             */
-/*   Updated: 2025/04/15 10:48:43 by lleodev          ###   ########.fr       */
+/*   Updated: 2025/04/15 16:04:37 by lleodev          ###   ########.fr       */
 /*                                                                            */
 /******************************************************************************/
 
@@ -62,7 +62,7 @@
 # define KEY_ARROW_DOWN 65364
 # define KEY_SHIFT 65505
 
-# define MOVE_SPEED 0.2
+# define MOVE_SPEED 0.4
 # define ROTATE_SPEED 0.01
 
 typedef struct s_coords
